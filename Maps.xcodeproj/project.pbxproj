@@ -10,6 +10,10 @@
 		11907D2D1F8E9ECF00BCCDDF /* MAPSEnvironmentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11907D2C1F8E9ECF00BCCDDF /* MAPSEnvironmentManager.swift */; };
 		11907D2E1F8E9ECF00BCCDDF /* MAPSEnvironmentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11907D2C1F8E9ECF00BCCDDF /* MAPSEnvironmentManager.swift */; };
 		11907D2F1F8E9ECF00BCCDDF /* MAPSEnvironmentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11907D2C1F8E9ECF00BCCDDF /* MAPSEnvironmentManager.swift */; };
+		28D2C5EC20C756A600B8520F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D2C5EB20C756A600B8520F /* Alamofire.framework */; };
+		28D2C5ED20C756BF00B8520F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D2C5EB20C756A600B8520F /* Alamofire.framework */; };
+		28D2C5EE20C756C600B8520F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D2C5EB20C756A600B8520F /* Alamofire.framework */; };
+		28D2C5EF20C756CD00B8520F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D2C5EB20C756A600B8520F /* Alamofire.framework */; };
 		4D061E4D1E95656300F328D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3299301E5E5A97006E3A9F /* AppDelegate.swift */; };
 		4D061E4E1E95656300F328D0 /* MAPSInitialNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D26157A1E85AD0500694046 /* MAPSInitialNavigationController.swift */; };
 		4D061E4F1E95656300F328D0 /* MAPSMainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3299511E5E5B11006E3A9F /* MAPSMainNavigationController.swift */; };
@@ -129,6 +133,7 @@
 
 /* Begin PBXFileReference section */
 		11907D2C1F8E9ECF00BCCDDF /* MAPSEnvironmentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAPSEnvironmentManager.swift; sourceTree = "<group>"; };
+		28D2C5EB20C756A600B8520F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		4D061E731E95656300F328D0 /* MapsDEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapsDEV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D061E751E9565FD00F328D0 /* MapsDEV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapsDEV-Info.plist"; sourceTree = "<group>"; };
 		4D2486DC1EB2618B00146C0A /* Jenkins.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Jenkins.plist; sourceTree = "<group>"; };
@@ -168,6 +173,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D2C5EE20C756C600B8520F /* Alamofire.framework in Frameworks */,
 				4DA122FD1F05BC1F00C41712 /* libsqlite3.tbd in Frameworks */,
 				4D061E531E95656300F328D0 /* libz.tbd in Frameworks */,
 				4D061E541E95656300F328D0 /* WebKit.framework in Frameworks */,
@@ -180,6 +186,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D2C5EC20C756A600B8520F /* Alamofire.framework in Frameworks */,
 				4DA122FB1F05BA9500C41712 /* libsqlite3.tbd in Frameworks */,
 				815F20D01E8D80AA00FB2386 /* libz.tbd in Frameworks */,
 				815F20CE1E8D809500FB2386 /* WebKit.framework in Frameworks */,
@@ -199,6 +206,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D2C5EF20C756CD00B8520F /* Alamofire.framework in Frameworks */,
 				4D3BFCEE205ADB96000145CC /* libsqlite3.tbd in Frameworks */,
 				4D3BFCF0205ADB96000145CC /* libz.tbd in Frameworks */,
 				4D3BFCF1205ADB96000145CC /* WebKit.framework in Frameworks */,
@@ -211,6 +219,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D2C5ED20C756BF00B8520F /* Alamofire.framework in Frameworks */,
 				4DAC8FA01F2BE8D700BCD84F /* libsqlite3.tbd in Frameworks */,
 				4DAC8FA21F2BE8D700BCD84F /* libz.tbd in Frameworks */,
 				4DAC8FA41F2BE8D700BCD84F /* WebKit.framework in Frameworks */,
@@ -308,6 +317,7 @@
 		815F20C61E8D805C00FB2386 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				28D2C5EB20C756A600B8520F /* Alamofire.framework */,
 				4DA122FA1F05BA9500C41712 /* libsqlite3.tbd */,
 				815F20CF1E8D80AA00FB2386 /* libz.tbd */,
 				815F20CD1E8D809500FB2386 /* WebKit.framework */,
@@ -403,7 +413,6 @@
 				4DAC8F9F1F2BE8D700BCD84F /* Frameworks */,
 				4DAC8FAD1F2BE8D700BCD84F /* Resources */,
 				4DAC8FB31F2BE8D700BCD84F /* Embed Frameworks */,
-				4DAC8FBA1F2BE8D700BCD84F /* Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -590,20 +599,6 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"error: SwiftLint does not exist, download it from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
-		4DAC8FBA1F2BE8D700BCD84F /* Swiftlint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = Swiftlint;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"error: SwiftLint does not exist, download it from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -703,6 +698,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "Maps/MapsDEV-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -733,6 +729,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "Maps/MapsDEV-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -869,6 +866,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Maps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -900,6 +898,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Maps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -964,6 +963,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "Maps/MapsDelta-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -997,6 +997,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "Maps/MapsDelta-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1028,6 +1029,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "Maps/MapsQA-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1058,6 +1060,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "Maps/MapsQA-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
