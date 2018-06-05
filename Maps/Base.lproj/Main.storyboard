@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Oqv-oK-P18">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main Navigation Controller-->
+        <scene sceneID="xJu-Dc-dFJ">
+            <objects>
+                <navigationController storyboardIdentifier="MAPSMainNavigationController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Oqv-oK-P18" customClass="MAPSMainNavigationController" customModule="Maps" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="Crd-gh-D7l">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="QF3-PP-wC4" kind="relationship" relationship="rootViewController" id="H7F-C4-onU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FBd-fa-OqX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-583" y="116"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="Qsi-1Z-4ah">
+            <objects>
+                <viewController storyboardIdentifier="MAPSMainViewController" extendedLayoutIncludesOpaqueBars="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QF3-PP-wC4" customClass="MAPSMainViewController" customModule="Maps" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Eni-IY-W63"/>
+                        <viewControllerLayoutGuide type="bottom" id="pZ6-sq-V1L"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Uv9-Z9-bFD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="roY-Qk-vQu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U7y-9s-JHs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="165.59999999999999" y="115.59220389805098"/>
+        </scene>
+    </scenes>
+</document>

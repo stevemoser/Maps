@@ -1,0 +1,87 @@
+# Set syntax highlighting to ruby for vim
+#vim: syntax=ruby
+
+# Customise this file, documentation can be found here:
+# https://github.com/fastlane/fastlane/tree/master/fastlane/docs
+# All available actions: https://docs.fastlane.tools/actions
+# can also be listed using the `fastlane actions` command
+
+# This is the minimum version number required.
+# Update this, if you use features of a newer version
+fastlane_version "2.57.0"
+
+default_platform :ios
+
+platform :ios do
+
+  before_all do
+    ENV['TEAM_ID'] = "FPQGW73C56"
+
+    if is_ci
+      setup_jenkins
+    else
+      ENV['BUILD_NUMBER'] = '0'
+    end
+  end
+
+  desc "Run Tests"
+  lane :test do |options|
+    # set variables from options and environment variables.
+    scheme = options[:scheme] || ENV["SCHEME"]
+    logPath = options[:logPath] || './build'
+    # Run Tests against given scheme
+    scan(
+      scheme: scheme,
+      buildlog_path: logPath,
+      code_coverage: true
+    )
+
+  end
+
+  desc "Build and Package IPA"
+  lane :build do |options|
+    # set variables from options and environment variables
+    projectName      = options[:projectName] || ENV["PROJECT_NAME"]
+    provisionProfile = options[:provisionProfile] || ENV["PROVISION_PROFILE"]
+    appId            = options[:bundleId] || ENV["APP_ID"]
+    scheme           = options[:scheme] || ENV["SCHEME"]
+    xcodeproj        = options[:xcodeproj] || "#{projectName}.xcodeproj"
+    buildPath        = options[:buildPath] || './build'
+    logPath          = options[:logPath] || './build'
+    plist            = options[:plist] || "./Maps/#{scheme}-Info.plist"
+    buildNumber      = options[:buildNumber]
+
+    # If Maps scheme for release needs to match "Info.plist", this will
+    # remove the scheme from the filename.
+    if scheme == "Maps" then
+      plist = plist.gsub("#{scheme}-", "")
+    end
+
+    # Set the provision profile
+    ENV["PROVISION_PROFILE"] = provisionProfile
+    ENV["APP_ID"] = appId
+
+    # Ensure the project team is ...
+    update_project_team(path: xcodeproj)
+
+    # Set the version and build numbers
+    original_version = get_version_number target:scheme
+    new_version = "#{original_version}.#{buildNumber}"
+    increment_version_number(version_number: new_version)
+    increment_build_number(build_number: buildNumber)
+
+    # Build and package the IPA against the given scheme.
+    # Sets the output name of the IPA and the build directory and export type
+    gym(
+      scheme: scheme,
+      output_name: "#{projectName}-#{new_version}.ipa",
+      clean: true,
+      output_directory: buildPath,
+      buildlog_path: logPath,
+      export_method: "enterprise",
+    )
+  end
+end
+
+# fastlane reports which actions are used. No personal data is recorded.
+# Learn more at https://github.com/fastlane/fastlane#metrics

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F53F32D84F4E515A2FBFEEF2A878C246D4EB7A99",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4402AEB1AB6AE1D5FFFBC4F516C5A0776E29A01C" : 9223372036854775807,
+    "F53F32D84F4E515A2FBFEEF2A878C246D4EB7A99" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6847574B-BB16-404A-86B2-9966099F32B0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4402AEB1AB6AE1D5FFFBC4F516C5A0776E29A01C" : "Authentication\/",
+    "F53F32D84F4E515A2FBFEEF2A878C246D4EB7A99" : "Maps\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Maps",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Maps.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Authentication.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4402AEB1AB6AE1D5FFFBC4F516C5A0776E29A01C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Maps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F53F32D84F4E515A2FBFEEF2A878C246D4EB7A99"
+    }
+  ]
+}
