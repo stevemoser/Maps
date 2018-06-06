@@ -434,7 +434,7 @@
 				ORGANIZATIONNAME = HANDLE;
 				TargetAttributes = {
 					4D061E4A1E95656300F328D0 = {
-						DevelopmentTeam = FPQGW73C56;
+						DevelopmentTeam = 8CT5XRS423;
 						LastSwiftMigration = 0830;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -460,10 +460,10 @@
 						TestTargetID = 4D32992C1E5E5A97006E3A9F;
 					};
 					4D3BFCDE205ADB96000145CC = {
-						DevelopmentTeam = FPQGW73C56;
+						DevelopmentTeam = 8CT5XRS423;
 					};
 					4DAC8F981F2BE8D700BCD84F = {
-						DevelopmentTeam = FPQGW73C56;
+						DevelopmentTeam = 8CT5XRS423;
 						SystemCapabilities = {
 							com.apple.Keychain = {
 								enabled = 0;
@@ -694,7 +694,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = FPQGW73C56;
+				DEVELOPMENT_TEAM = 8CT5XRS423;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -709,7 +709,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.dc.MapsDEV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "a80cf6fd-371b-4c74-a68d-0b054c1d74f5";
-				PROVISIONING_PROFILE_SPECIFIER = "Digital Catalyst Wildcard Development";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG DEV";
 				SWIFT_OBJC_BRIDGING_HEADER = "Maps/Maps-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -725,7 +725,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = FPQGW73C56;
+				DEVELOPMENT_TEAM = 8CT5XRS423;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -740,7 +740,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.dc.MapsDEV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "1ee7e411-fe55-46eb-abfd-ff97c1579cac";
-				PROVISIONING_PROFILE_SPECIFIER = "MapsDEV Distribution";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEV;
 				SWIFT_OBJC_BRIDGING_HEADER = "Maps/Maps-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -959,7 +959,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 0;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = FPQGW73C56;
+				DEVELOPMENT_TEAM = 8CT5XRS423;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -974,7 +974,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.dc.MapsDelta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "a3dc6820-7204-44ea-9b29-8d398d52dcb5";
-				PROVISIONING_PROFILE_SPECIFIER = "Digital Catalyst Wildcard Development";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG PROD";
 				SWIFT_OBJC_BRIDGING_HEADER = "Maps/Maps-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -993,7 +993,7 @@
 				CODE_SIGN_ENTITLEMENTS = Maps/Maps.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CURRENT_PROJECT_VERSION = 0;
-				DEVELOPMENT_TEAM = FPQGW73C56;
+				DEVELOPMENT_TEAM = 8CT5XRS423;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1008,7 +1008,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.dc.MapsDelta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "275242ad-5115-4c12-bf19-0a993d40eea7";
-				PROVISIONING_PROFILE_SPECIFIER = "MapsDeltaPlus Distribution";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = PROD;
 				SWIFT_OBJC_BRIDGING_HEADER = "Maps/Maps-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -1025,7 +1025,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = FPQGW73C56;
+				DEVELOPMENT_TEAM = 8CT5XRS423;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1040,7 +1040,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.dc.MapsQA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "86d5dca3-f1b7-4847-a8ee-598f0ece7765";
-				PROVISIONING_PROFILE_SPECIFIER = "Digital Catalyst Wildcard Development";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG QA";
 				SWIFT_OBJC_BRIDGING_HEADER = "Maps/Maps-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1056,7 +1056,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = FPQGW73C56;
+				DEVELOPMENT_TEAM = 8CT5XRS423;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1071,7 +1071,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.handlellc.dc.MapsQA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "01a16092-007d-4d70-bcfc-f9b7b5ec6f96";
-				PROVISIONING_PROFILE_SPECIFIER = "MapsQA distribution";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = QA;
 				SWIFT_OBJC_BRIDGING_HEADER = "Maps/Maps-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
