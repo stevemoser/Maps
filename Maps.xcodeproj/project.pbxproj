@@ -14,6 +14,7 @@
 		28D2C5ED20C756BF00B8520F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D2C5EB20C756A600B8520F /* Alamofire.framework */; };
 		28D2C5EE20C756C600B8520F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D2C5EB20C756A600B8520F /* Alamofire.framework */; };
 		28D2C5EF20C756CD00B8520F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D2C5EB20C756A600B8520F /* Alamofire.framework */; };
+		28D2C5F120C7A31A00B8520F /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28D2C5EB20C756A600B8520F /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4D061E4D1E95656300F328D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3299301E5E5A97006E3A9F /* AppDelegate.swift */; };
 		4D061E4E1E95656300F328D0 /* MAPSInitialNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D26157A1E85AD0500694046 /* MAPSInitialNavigationController.swift */; };
 		4D061E4F1E95656300F328D0 /* MAPSMainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3299511E5E5B11006E3A9F /* MAPSMainNavigationController.swift */; };
@@ -125,6 +126,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				28D2C5F120C7A31A00B8520F /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
